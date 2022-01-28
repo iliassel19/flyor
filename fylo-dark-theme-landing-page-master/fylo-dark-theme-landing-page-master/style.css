@@ -1,0 +1,339 @@
+.header {
+  height: 100%;
+  max-width: 144rem;
+  margin-bottom: 20rem;
+}
+.nav {
+  padding: 4.8rem 6.4rem;
+}
+.logo-img {
+  width: 12rem;
+}
+.nav-list {
+  gap: 4.8rem;
+}
+.nav-item {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.nav-item:hover {
+  font-weight: 700;
+  color: #fff;
+  text-decoration: underline solid #fff;
+}
+.container {
+  align-items: center;
+  padding: 0 25vw;
+  text-align: center;
+}
+.intro-img {
+  width: 60rem;
+  margin-bottom: 2.4rem;
+}
+.primary {
+  color: #fff;
+  font-size: 3.4rem;
+  margin-bottom: 3.2rem;
+}
+.description {
+  color: #fff;
+  padding: 0 8rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+}
+.btn {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1.2rem 6.4rem;
+  border-radius: 10rem;
+  background: linear-gradient(
+    45deg,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%) 60%
+  );
+}
+.btn:hover {
+  background: linear-gradient(
+    45deg,
+    hsl(176, 68%, 64%) 200%,
+    hsl(198, 60%, 50%)
+  );
+}
+
+/****************************************************/
+/****************************************************/
+/****************************************************/
+
+.section-features {
+  margin-top: 12.8rem;
+}
+.features-container {
+  padding: 0 17vw 0 19vw;
+}
+.box-img {
+  margin-bottom: 2.4rem;
+}
+.secondary {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+.box-text {
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+/****************************************************/
+/****************************************************/
+/****************************************************/
+.section-how {
+  padding-top: 9.8rem;
+  width: 100%;
+  height: 100%;
+}
+.how-container {
+  padding: 4.8rem 8rem;
+}
+.how-img {
+  height: 50rem;
+}
+.how {
+  gap: 4.8rem;
+  align-items: center;
+}
+
+.how-h {
+  font-size: 3.6rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+.how-text {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+.text-2 {
+  margin-bottom: 2.4rem;
+}
+.how-btn {
+  font-size: 1.4rem;
+  color: hsl(176, 68%, 64%);
+  padding-bottom: 0.6rem;
+  position: relative;
+}
+.how-btn::before {
+  content: "";
+  width: 31.5%;
+  height: 0.1rem;
+  background: hsl(176, 68%, 64%);
+  position: absolute;
+  top: 100%;
+}
+.arrow {
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-left: 0.7rem;
+}
+.how-btn:hover {
+  color: #fff;
+}
+.how-btn:hover {
+  filter: brightness(0) invert(1);
+}
+
+/****************************************************/
+/****************************************************/
+/****************************************************/
+.testamonial-container {
+  padding: 12.8rem 9.8rem;
+}
+.testamonial {
+  gap: 3.2rem;
+}
+.testamonial-card {
+  padding: 4.8rem 3.2rem 2.4rem 2.4rem;
+  background: hsl(219, 30%, 18%);
+  box-shadow: 0 1.2rem 2rem 0.1rem hsl(217, 28%, 15%);
+}
+.testamonial-text {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 2.4rem;
+  line-height: 1.6;
+}
+.author {
+  gap: 1.2rem;
+}
+.author-img {
+  border-radius: 50%;
+  height: 3.2rem;
+}
+.name {
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+.post {
+  color: rgba(255, 255, 255, 0.707);
+  font-size: 1.1rem;
+}
+.quote {
+  font-size: 10rem;
+}
+/****************************************************/
+/****************************************************/
+/****************************************************/
+
+.cta-container {
+  padding: 0 16vw;
+  position: relative;
+}
+.cta-container::before {
+  content: "";
+  width: 100%;
+  height: 50%;
+
+  background: hsl(216, 53%, 9%);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.cta {
+  z-index: 10;
+  width: 85rem;
+  padding: 6.4rem 8rem;
+  padding-bottom: 4.8rem;
+  background-color: hsl(217, 28%, 15%);
+  box-shadow: 0rem 1rem 2rem 0rem rgba(0, 0, 0, 0.2);
+}
+
+.cta-h {
+  color: #fff;
+  font-size: 3.4rem;
+  margin-bottom: 2.4rem;
+}
+.cta-text {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+.cta-form {
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.cta-form::before {
+  content: "Please enter a valid email adresse";
+  font-size: 1.2rem;
+  font-family: "Open Sans", sans-serif;
+  color: hsl(0, 100%, 63%);
+  width: 100%;
+  height: 2rem;
+  position: absolute;
+  top: 110%;
+  left: -30%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.error {
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 25rem;
+  position: absolute;
+  top: 110%;
+  left: 0%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: hsl(0, 100%, 63%);
+  display: none;
+}
+
+.btn-form {
+  cursor: pointer;
+  padding: 1.2rem 3.2rem;
+}
+#email {
+  width: 210%;
+  height: 4.6rem;
+  border-radius: 5rem;
+  padding: 0 2rem;
+}
+
+/****************************************************/
+/****************************************************/
+/****************************************************/
+.section-footer {
+  background: hsl(216, 53%, 9%);
+  padding: 9.8rem 8rem;
+}
+.logo-footer {
+  width: 12.8rem;
+  margin-bottom: 4.8rem;
+}
+.footer-content {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  column-gap: 14rem;
+  align-content: stretch;
+}
+.left {
+  gap: 9.8rem;
+  align-items: flex-start;
+}
+.cellul {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.4rem;
+}
+.cellul p {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.cellul-2 {
+  gap: 2.4rem;
+}
+.content {
+  gap: 2rem;
+}
+.content p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+.right {
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 7.2rem;
+}
+.social-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  fill: #fff;
+  border: 0.1rem solid #fff;
+  padding: 0.6rem;
+  border-radius: 50%;
+  transition: 0.3s ease;
+}
+.social-icon:hover {
+  fill: hsl(176, 68%, 64%);
+  border: 0.1rem solid hsl(176, 68%, 64%);
+}
+.links {
+  gap: 1.6rem;
+}
+.links a {
+  color: #fff;
+  font-size: 1.4rem;
+}
+.links a:hover {
+  font-weight: 700;
+}
+.social {
+  gap: 1.2rem;
+}
